@@ -1,0 +1,32 @@
+<samlp:Response xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="_44c9865f-9505-4d5b-b917-15276aec3c63" InResponseTo="_a4749b0f-5fac-430a-b799-eb5abbd7d31b" Version="2.0" IssueInstant="2022-08-09T22:08:34.7993354Z" Destination="https://login.microsoftonline.com/login.srf" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://mrochonb2cprod.onmicrosoft.com/SAML</saml:Issuer>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="#_44c9865f-9505-4d5b-b917-15276aec3c63">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+                        <InclusiveNamespaces PrefixList="saml samlp xenc xs" xmlns="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                    </Transform>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <DigestValue>p5yqIYd2zKAZ+Mi+KtwaT/lVfgI=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>Sl/GP6fa3nQJZ18PaW8YHWiyILnjzAr6/NJMlOSx+76Fe1a46LrGJQx5nBr7taY5he9SOaN8g+L9Ds/Lu4oATWwVTLBYkTWsvT4Lf4bZ651O4+S4XT48/p8L/9NL4+nGgp3ErK6nHHNjYHVww8z7N0o3fOZGJVxnGLeuJf555E5ZLnhV4OmDka6AvEtgPOg8baFyP7n9MVXqdYHo7Esc/9RfM6FCWd0EX2vYQbZ1r0vWE3i9lhe+rWmecEYYETfCRbxLg+/I146sMjyLYtnSmYkyH1JmLvSQ53NIE/97ldaEQqEw8i3H1zlABkyluyKe5ARVSFsDil2zk5isgjITEQ==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIIDWDCCAkCgAwIBAgIQIDGlko2WmJxIWVOHOYMv+jANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDDDRCMkNfMUFfU0FNTFNpZ25pbmdLZXkubXJvY2hvbmIyY3Byb2Qub25taWNyb3NvZnQuY29tMB4XDTIyMDYyMjIxMDIzNVoXDTIzMDYyMjIxMDIzNVowPzE9MDsGA1UEAww0QjJDXzFBX1NBTUxTaWduaW5nS2V5Lm1yb2Nob25iMmNwcm9kLm9ubWljcm9zb2Z0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPMnB43pG6OyeFqZ3erDAjfWlBeQp6YyOjsjKS2+gqrI6f/MzfwANpYZKjfng3N0HgeqdNKOPmr4+AJR68aInKI/PQ4a7P0vyRcIy3jsKhcqfeyQfCNQYisUmxPSHBlOr5Q4Yab7EgOTSk2DsOxcEf/1CiMx5JezfIeJISQlBulLLc+EqaVJwYCI6eovjAslqL7XiaSqSUVGDMYW3cKndUZ1+cwoTq+WDD+I86wzsC83yJR5WqiZWYeLxw63VWrM+ocPjkswcWUbzmNeXnhd3bC3axobXuBWfQbuigbzc0c0To0qVCCy6yM6vOw3SxrmyK8n6UoiUtzxOQ9d6sNc2J0CAwEAAaNQME4wDgYDVR0PAQH/BAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAdBgNVHQ4EFgQUxWZuwGqkZOe8fzKGEdXO+Wa97L8wDQYJKoZIhvcNAQELBQADggEBACvOP4jNj4FxV05B5LFw2qp/lX3krb/OLyTDuUVVkaVT5AM+v/2GGyQwvnPsA9zL3oIxgsPaBVMUQ2f5Vdc/5fH/aOnd19wjc02pUMc3gNYPVdERDkzQGyefTfz3gIXWEcdCV0emPcniyU0lVRmTYJpDr5axp3LvThqfFPR+oqsuKF6lvmoVzZi8O0Gjf5BVZXkgZYhAIphkjYHQ/xEYgg2JKvJiUEr10pQ8tPmDKOdn7+AHU98udhDQTLqwBiFsRepvn0ky+zXDoIhpLRvq7GzK0jTBvhhr2NgD5ZdpzzjPOZhFMOIBfxVtSRfQBvXsbtgKNR70m3qC7QMaQumzzH8=</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Responder" />
+        <samlp:StatusMessage>Id:a0efbfc6-7892-407e-abb5-1aacd2b55b58 ; Message: The claim type 'email' specified in the SubjectNamingInfo element in policy 'B2C_1A_SAMLRP_SAML_SUSI' of tenant ' mrochonb2cprod.onmicrosoft.com'' does not specify a default partner claim for 'Saml2'.</samlp:StatusMessage>
+        <samlp:StatusDetail>
+            <IsPolicySpecificError>true</IsPolicySpecificError>
+        </samlp:StatusDetail>
+    </samlp:Status>
+</samlp:Response>

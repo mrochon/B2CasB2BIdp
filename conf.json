@@ -1,0 +1,6 @@
+{
+  "Prefix": "SAMLRP_",
+  "SAML": {
+    "samlResponseIssuerUri": "https://mrochonb2cprod.onmicrosoft.com/SAML"
+  }
+}
